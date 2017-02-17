@@ -1,0 +1,21 @@
+.contact-logo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.view {
+    background: url("../img/background.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#index-banner {
+    background: url("../img/background.png")no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
