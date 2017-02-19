@@ -3,19 +3,79 @@
     margin-right: 5px;
 }
 
-.view {
-    background: url("../img/background.png")no-repeat center center fixed;
+#about {
+    background: url("../img/background.png") no-repeat center fixed;
+    height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#index-banner {
-    background: url("../img/background.png")no-repeat center center fixed;
-    height: 300px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons.md-56 {
+    font-size: 56px;
+}
+
+.material-icons.md-64 {
+    font-size: 64px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#me_image {
+    display: flex;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.no-selectable-drag {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+}
+
+#resume {
+    margin-top: 15%;
+    margin-right: 25%;
 }
