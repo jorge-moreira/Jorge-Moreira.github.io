@@ -5337,6 +5337,15 @@ button.btn-floating {
   background-color: rgba(0, 150, 136, 0.7);
 }
 
+.waves-effect.waves-grey-lighten-1 .waves-ripple {
+  background-color: #bdbdbd;
+}
+
+.waves-effect.waves-blue-grey-lighten-2 .waves-ripple {
+  background-color: #90a4ae;
+}
+
+
 .waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
   border: 0;
   font-style: normal;
