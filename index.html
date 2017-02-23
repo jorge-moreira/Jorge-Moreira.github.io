@@ -16,6 +16,7 @@
     <!-- Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" rel="stylesheet">
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -39,7 +40,8 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a class="waves-effect waves-blue-grey-darken" href="#education">Education</a></li>
                     <li><a class="waves-effect waves-blue-grey-darken" href="#skills">Skills</a></li>
-                    <li><a class="waves-effect waves-blue-grey-darken" href="#portfolio">Portfolio</a></li>
+                    <li><a class="waves-effect waves-blue-grey-darken" href="#languages">Languages</a></li>
+                    <li><a class="waves-effect waves-blue-grey-darken" href="#hobbies">Hobbies</a></li>
                     <li><a class="waves-effect waves-blue-grey-darken" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -51,7 +53,8 @@
 <ul id="mobile-nav" class="side-nav">
     <li><a class="waves-effect waves-blue-grey-lighten-2" href="#education">Education</a></li>
     <li><a class="waves-effect waves-blue-grey-lighten-2" href="#skills">Skills</a></li>
-    <li><a class="waves-effect waves-blue-grey-lighten-2" href="#portfolio">Portfolio</a></li>
+    <li><a class="waves-effect waves-blue-grey-lighten-2" href="#languages">Languages</a></li>
+    <li><a class="waves-effect waves-blue-grey-lighten-2" href="#hobbies">Hobbies</a></li>
     <li><a class="waves-effect waves-blue-grey-lighten-2" href="#contact">Contact</a></li>
 </ul>
 
@@ -61,7 +64,7 @@
     <div class="row">
         <!-- Image -->
         <div id="image_role" class="col s12 m6 l4 center-align no-selectable-drag">
-            <div id="me_image" class="z-depth-5 image">
+            <div id="me_image" class="z-depth-5">
                 <img src="img/me.png" width="200" height="200">
             </div>
             <div id="role">
@@ -88,9 +91,9 @@
 <!-- Education -->
 <div id="education" class="section scrollspy">
     <div class="container">
-        <div>
-            <h2 style="text-align:left;float:left;" class="fa fa-gear fa-spin fa-2x valign w3-margin-right"></h2>
-            <h2 style="text-align:right;float:left;" class="no-selectable-drag">Education</h2>
+        <div class="no-selectable-drag">
+            <h2 style="text-align:left;float:left;" class="fa fa-gear fa-spin fa-2x w3-margin-right"></h2>
+            <h2 style="text-align:right;float:left;">Education</h2>
             <hr style="clear:both;"/>
         </div>
         <div class="row">
@@ -98,9 +101,12 @@
             <div class="col s12 m12 l12">
                 <a href="https://www.isep.ipp.pt/" target="_blank">
                     <div class="card-panel blue-grey lighten-4 hoverable waves-effect waves-block waves-grey-lighten-1">
-                        <h5 class="w3-opacity"><b>Instituto Superior de Engenharia do Porto</b></h5>
-                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2017</h6>
-                        <p>Bachelor Degree</p>
+                        <div>
+                            <h5 class="w3-opacity"><b>Instituto Superior de Engenharia do Porto</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - <span
+                                    class="chip teal white-text" style="font-size: 16px;">Current</span></h6>
+                            <p>Bachelor Degree</p>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -120,16 +126,20 @@
     </div>
 </div>
 
-<!--Experience-->
+<!--Experience
 <div id="experience" class="section scrollspy">
     <div class="container">
     </div>
-</div>
+</div>-->
 
 <!--Skills-->
 <div class="section scrollspy" id="skills">
     <div class="container">
-        <h2>Skills</h2>
+        <div class="no-selectable-drag">
+            <h2 style="text-align:left;float:left;" class="fa fa-code fa-2x w3-margin-right"></h2>
+            <h2 style="text-align:right;float:left;">Skills</h2>
+            <hr style="clear:both;"/>
+        </div>
         <div class="round-square blue-grey lighten-4 no-selectable-drag hoverable">
             <div class="row">
                 <div class="container">
@@ -146,16 +156,18 @@
                     </div>
 
                     <!-- PHP -->
-                    <div class="col s6 m6 l3">
-                        PHP
-                    </div>
-                    <div class="col s6 m6 l3">
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle blue-grey-text text-lighten-1" aria-hidden="true"></i>
-                    </div>
+                    <a href="https://drive.google.com/file/d/0B1ZadobvkFBpRUhEYTNIVElib3M/view" target="_blank">
+                        <div class="col s6 m6 l3">
+                            PHP
+                        </div>
+                        <div class="col s6 m6 l3">
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle blue-grey-text text-lighten-1" aria-hidden="true"></i>
+                        </div>
+                    </a>
 
                     <!-- C# -->
                     <div class="col s6 m6 l3">
@@ -170,16 +182,18 @@
                     </div>
 
                     <!-- Javascript -->
-                    <div class="col s6 m6 l3">
-                        Javascript
-                    </div>
-                    <div class="col s6 m6 l3">
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                        <i class="fa fa-circle teal-text" aria-hidden="true"></i>
-                    </div>
+                    <a href="https://drive.google.com/file/d/0B1ZadobvkFBpSTVRQUhVbkpNV0U/view" target="_blank">
+                        <div class="col s6 m6 l3">
+                            Javascript
+                        </div>
+                        <div class="col s6 m6 l3">
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                            <i class="fa fa-circle teal-text" aria-hidden="true"></i>
+                        </div>
+                    </a>
 
                     <!-- SQL -->
                     <div class="col s6 m6 l3">
@@ -258,8 +272,47 @@
     </div>
 </div>
 
+<!-- Languages -->
+<div class="section scrollspy" id="languages">
+    <div class="container">
+        <div class="no-selectable-drag">
+            <h2 style="text-align:left;float:left;" class="fa fa-globe fa-2x w3-margin-right"></h2>
+            <h2 style="text-align:right;float:left;">Languages</h2>
+            <hr style="clear:both;"/>
+        </div>
+        <div class="row">
+
+            <!-- Portuguese -->
+            <div class="col s12 m12 l4 no-selectable-drag">
+                <img src="img/portuguese.png" class="center-col z-depth-5 hoverable lang-progress" width="250" height="250">
+            </div>
+
+            <!-- English -->
+            <div class="col s12 m12 l4 no-selectable-drag">
+                <img src="img/english.png" class="center-col z-depth-5 hoverable lang-progress" width="250" height="250">
+            </div>
+
+            <!-- Spanish -->
+            <div class="col s12 m12 l4 no-selectable-drag">
+                <img src="img/spanish.png" class="center-col z-depth-5 hoverable lang-progress" width="250" height="250">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Interests and hobbies -->
+<div class="section scrollspy" id="hobbies">
+    <div class="container">
+        <div class="no-selectable-drag">
+            <h2 style="text-align:left;float:left;" class="fa fa-puzzle-piece fa-2x w3-margin-right"></h2>
+            <h2 style="text-align:right;float:left;">Interests and Hobbies</h2>
+            <hr style="clear:both;"/>
+        </div>
+    </div>
+</div>
+
 <!--Portfolio-->
-<div class="row scrollspy" id="portfolio">
+<div class="section row scrollspy" id="portfolio">
     <div class="container">
         <h2 class="header text_b">Portfolio</h2>
         <div class="row">
