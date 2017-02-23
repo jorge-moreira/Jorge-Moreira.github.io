@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
     $(".button-collapse").sideNav();
+    $('.tooltipped').tooltip({delay: 50});
     var options = [
         {selector: '#staggered-test', offset: 10, callback: function(el) {
             Materialize.fadeInImage("#me_image"); } },
@@ -12,3 +13,10 @@ $(document).ready(function(){
             Materialize.fadeInImage($(el)); } } ];
     Materialize.scrollFire(options);
 });
+
+function tooltip(tag, message) {
+    $(tag).tooltip({
+        delay: 50,
+        tooltip: message
+    });
+}

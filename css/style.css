@@ -125,6 +125,16 @@ html, body, h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 
+.hobbies {
+    width: 150px;
+    height: auto;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    display: block;
+    box-sizing: border-box;
+}
+
 #portuguese {
     background: url("../img/portuguese.png") no-repeat center;
 }
