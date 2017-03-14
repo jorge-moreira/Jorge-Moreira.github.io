@@ -59,7 +59,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 #resume {
     display: inline-block;
-    margin-top: 15%;
+    margin: 15%;
 }
 
 /* Rules for sizing the icon. */
