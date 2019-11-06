@@ -8,5 +8,5 @@ This is my personal page repository
 </ul>
 
 
-##License
+## License
 Jorge-Moreira.github.io is licensed under <a href="https://github.com/Jorge-Moreira/Jorge-Moreira.github.io/blob/master/LICENSE">MIT</a>.
